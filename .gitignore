@@ -1,0 +1,118 @@
+Skip to content
+ 
+Search…
+All gists
+Back to GitHub
+@HenriDaf 
+@dedunumax dedunumax/.gitignore Java
+Last active 2 days ago • Report abuse
+31
+17
+ Code Revisions 12 Stars 31 Forks 17
+<script src="https://gist.github.com/dedunumax/54e82214715e35439227.js"></script>
+  
+A complete .gitignore file for Java
+ .gitignore Java
+##############################
+## Java
+##############################
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+##############################
+## Maven
+##############################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+##############################
+## Gradle
+##############################
+bin/
+build/
+.gradle
+.gradletasknamecache
+gradle-app.setting
+!gradle-wrapper.jar
+
+##############################
+## IntelliJ
+##############################
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+##############################
+## Eclipse
+##############################
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+
+##############################
+## NetBeans
+##############################
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+##############################
+## OS X
+##############################
+.DS_Store
+@jsumanadas
+jsumanadas commented 6 days ago
+very useful stuff tk Dedunumax
+
+@dedunumax
+Owner
+Author
+dedunumax commented 4 days ago
+Please feel free to suggest changes.
+
+@HenriDaf
+ 
+Leave a comment
+
+Attach files by dragging & dropping, selecting or pasting them.
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
